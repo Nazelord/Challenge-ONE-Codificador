@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta rel="icon" href="./img/Vector.png">
+    <title>Challenge 01 Alura | Nazelord</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body id="root">
+    <main id="main">
+        <section id="textUserSection">
+            <header class="headerSection">
+                <img class="imgbrand" id="imgHeader" alt="logo" src="/img/Vector.png">
+                <button id="changeTheme" value="white">Cambiar tema</button>
+            </header>
+            <form class="textAreaDiv">
+                <textarea name="textArea" id="textArea" placeholder="Ingrese el texto aquí..."></textarea>
+            </form>
+            <div class="alert">
+                <p class="alertText"><i class="fa-solid fa-circle-exclamation"></i>
+                 Solo letras minúsculas y sin acentos</p>
+                 <div class="buttonsDiv">
+                    <button class="button" id="button1" value="encrypt">Encriptar</button>
+                    <button class="button" id="button2" value="decrypt">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <section id="resultUserSection">
+            <div id="showEncryptedData" class="showMessage" style="display: none;" >
+                <div class="buttonsDivCard">
+                    <button class="buttonCard delButton" id="delButton1">Refrescar</button>
+                </div>
+            </div>
+            <div id="showDesencryptedData" class="showMessage" style="display: none;">
+                <div class="buttonsDivCard">
+                    <button class="buttonCard delButton" id="delButton2">Refrescar</button>
+                </div>
+            </div>
+            <div id="showMessage" style="display: flex;">
+                <figure class="figureImg">
+                    <img id="muneco" alt="looking for your crypted message">
+                </figure>
+                <div class="textMessageDiv">
+                    <h2 class="titleMessage">Ningún mensaje fue encontrado</h2>
+                    <p class="descriptionMessage">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">Diseñado por <a rel="noopener" href='https://www.aluracursos.com/' target="_blank">Alura</a>. Codificado por <a rel="noopener" href="https://www.instagram.com/nazelord" target="_blank">Nazelord</a></footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>

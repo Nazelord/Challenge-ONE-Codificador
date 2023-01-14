@@ -32,7 +32,7 @@ if (changeTheme.value === 'white'){
     resultUserSection.style.transition = '0.8s';
     showMessage.style.color = '#F3F5FC';
     showMessage.style.transition = '0.8s';
-    muneco.src = './img/muneco.svg';
+    muneco.src = './img/Muneco.svg';
     muneco.style.transition = '0.8s';
     imgHeader.src = './img/Vector.png';
     imgHeader.style.transition = '0.9s';
